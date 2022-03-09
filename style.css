@@ -1,0 +1,307 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#navbarSupportedContent{
+    margin-left: 30%;
+}
+
+
+.augment{
+    margin-top: 40%;
+    color: rgb(28, 28, 99);
+    position: relative;
+   
+}
+
+.streamline{
+    color: rgb(88, 87, 87);
+}
+
+#know-more{
+    background-color: rgb(28, 28, 99);
+    border-radius: 50px;
+    width: 30%;
+    padding: 10px;
+}
+
+#contact-us{
+    border-radius: 50px;
+    width: 30%;
+    padding: 10px;
+}
+
+.circle{
+    position: absolute;
+    border: solid 1px rgb(194, 193, 193);
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    top: -20%;
+    left: -35%;
+    z-index: 2;
+    
+}
+
+#banner{
+    width: 120%;
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+
+#about{
+    background-color: rgb(226, 226, 226);
+    padding: 5%;
+}
+
+.transform{
+    color: rgb(28, 28, 99);
+}
+
+.card-img-top{
+    height: 25%;
+    width: 25%;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+
+
+#bg{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    right: 0%;
+    left: 0%;
+}
+
+.div1{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    right: 0%;
+    left: 0%;
+    background-color: rgb(0, 0, 133);
+    opacity: 50%;
+
+}
+
+.auraa-features{
+    color: rgb(28, 28, 99);
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+#d-board{
+    margin-left: 404%;
+    margin-top: -140%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+
+#auraa-demo{
+    background-color: rgb(19, 19, 61);
+    padding: 5%;
+}
+
+.demo{
+    color: white;
+}
+
+.demo-paragraph{
+    color: white;
+    margin-left: 10%;
+}
+
+
+.latest-blog{
+    color: rgb(28, 28, 99);
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+#digital{
+    height: 50%;
+    width: 100%;
+    margin-left:0%;
+    margin-top: 0%;
+    border-radius: 10px;
+}
+
+#blog{
+    border-radius: 50px;
+    width: 15%;
+    margin-top: 3%;
+    margin-left: 45%;
+}
+
+
+
+#apple-store{
+    border-radius: 50px;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: -2%;
+    color: black;
+    border-color: #888888;
+    padding: 5px;
+}
+
+#play-store{
+    border-radius: 50px;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: -2%;
+    color: black;
+    border-color: #888888;
+    padding: 5px;
+}
+
+.footer{
+    color: black;
+    text-decoration: none;
+}
+
+#icons{
+    margin-top: 10%;
+    margin-left: 45%;
+
+}
+
+
+
+
+
+@media all and (max-width:1200px){
+
+    body{
+        overflow-x: hidden;
+    }
+    
+
+    #navbarSupportedContent{
+        margin-left: 10%;
+    }
+
+    .augment{
+    margin-top: 40%;
+    color: rgb(28, 28, 99);
+    position: relative;
+   
+}
+
+    #know-more{
+        background-color: rgb(28, 28, 99);
+        border-radius: 50px;
+        width: 40%;
+        padding: 10px;
+    }
+
+    #contact-us{
+        border-radius: 50px;
+        width: 40%;
+        padding: 10px;
+    }
+
+    #banner{
+        width: 120%;
+        margin-left: -15%;
+        margin-top: 30%;
+    }
+
+
+    .card-img-top{
+        height: 15%;
+        width: 15%;
+    }
+
+
+    #bg{
+        position: absolute;
+        width: 100%;
+        height: 800px;
+        right: 0%;
+        left: 0%;
+    }
+
+    .div1{
+        position: absolute;
+        height: 800px;
+        width: 100%;
+        right: 0%;
+        left: 0%;
+        background-color: rgb(0, 0, 133);
+        opacity: 50%;
+    
+    }
+
+    #d-board{
+        margin-left: 6%;
+        margin-top: 10%;
+        box-shadow: 5px 10px 18px #888888;
+    }
+
+    
+.auraa-features{
+    
+    color: rgb(28, 28, 99);
+    margin-top: 60%;
+    margin-left: 10%;
+}
+
+#digital{
+    height: 18%;
+    width: 100%;
+    margin-left:0%;
+    margin-top: 0%;
+    border-radius: 10px;
+}
+
+#blog{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 35%;
+    
+}
+
+
+#apple-store{
+    border-radius: 50px;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: -2%;
+    color: black;
+    border-color: #888888;
+    padding: 5px;
+}
+
+#play-store{
+    border-radius: 50px;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: -2%;
+    color: black;
+    border-color: #888888;
+    padding: 5px;
+}
+
+#icons{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+
+
+}
